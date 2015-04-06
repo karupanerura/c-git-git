@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 int main (int argc, char **argv) {
-  if (argc == 0) execl("git", NULL);
+  if (argc == 0) execl("git", "git", NULL);
 
   int i = 1;
   char *args[255] = { "git" };
