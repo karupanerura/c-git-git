@@ -15,7 +15,6 @@ git git git git git git git git status
 ```bash
 git clone https://github.com/karupanerura/c-git-git.git
 cd c-git-git
-git submodule update --init
 ```
 
 ## BUILD
@@ -23,4 +22,12 @@ git submodule update --init
 ```bash
 cmake .
 make
+```
+
+# RECOMMEND
+
+Maybe, you need it:
+
+```bash
+git config alias.git '!git "$@"'
 ```
